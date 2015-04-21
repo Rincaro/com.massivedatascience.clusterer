@@ -344,7 +344,7 @@ case class ColumnTrackingKMeans(config: KMeansConfig = DefaultKMeansConfig)
    * to cause to much garbage collection overhead.
    *
    * @param points points
-   * @param pointOps distance function
+   * @param ops distance function
    * @param assignments assignments of points
    * @param previousAssignments previous assignments of points
    * @param numCenters current number of non-empty clusters
